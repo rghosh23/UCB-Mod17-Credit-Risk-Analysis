@@ -28,7 +28,7 @@ In this project we will to take a look at how all the factors from the loan_stat
 
 ![UnderAndOverSampling](https://user-images.githubusercontent.com/102441140/183497952-32f22fa5-f0d5-4334-88a5-1737904169b6.png)
 
-**Over and undersampling results: The balanced accuracy is 65%, the precision for the high_risk has a very low positivity at 1% and the recall is 73%**
+**Under and Oversampling results: The balanced accuracy is 65%, the precision for the high_risk has a very low positivity at 1% and the recall is 73%**
 
 *Figure 5: BalancedRandomForest Classifier*
 
