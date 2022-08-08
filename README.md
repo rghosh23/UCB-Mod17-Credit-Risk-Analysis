@@ -40,8 +40,8 @@ In this project we will to take a look at how all the factors from the loan_stat
 
 ![Easy Ensemble](https://user-images.githubusercontent.com/102441140/183498270-decda663-4f5b-4539-b83f-e3109c88e0fe.png)
 
-**EasyEnsemble Classifier results: The balanced accuracy is 93%, the precision for the high_risk has positivity at 9% and the recall is 92%**
+**EasyEnsemble Classifier results: The balanced accuracy is 93%, the precision for the high_risk is at 9% and the recall is 92%**
 
 ## Summary
 
-In the first four models data was undersampled, oversampled and were under and oversampled to try and determine which model is best at predicting which loans have the highest risk. The next two models we resampled the data using ensemble classifiers to try and predict which which loans are high or low risk. However, it is apparent that the 'BalancedRandomForest' model provides the best results as we are interested in the highest accuracy and the highest % coverage for the high_risk, and the highest recall for the high_risk. The significance of prioritizing the high_risk as opposed the low_risk is because the goal of the machine-learning model is to detect specifically 'high_risk'.
+In the first four models data was undersampled, oversampled and were under and oversampled to try and determine which model is best at predicting which loans have the highest risk. The next two models we resampled the data using ensemble classifiers to try and predict which which loans are high or low risk. However, it is apparent that the 'Easy Ensemble' model provides the best results as we are interested in the highest accuracy and the highest % coverage for the high_risk, and the highest recall for the high_risk. The significance of prioritizing the high_risk as opposed the low_risk is because the goal of the machine-learning model is to detect specifically 'high_risk'.
